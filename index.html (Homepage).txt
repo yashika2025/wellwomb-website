@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellWomb - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/lotus-logo.png" alt="WellWomb Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tracker.html">PCOD Health Tracker</a></li>
+                <li><a href="education.html">Teenage Education</a></li>
+                <li><a href="toolkit.html">Natural Reversal Toolkit</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="images/hero-image.png" alt="WellWomb Hero Image">
+        <h1>Empowering Women with PCOD</h1>
+        <p>Track, Learn, and Heal Naturally</p>
+        <a href="tracker.html" class="cta-button">Get Started</a>
+    </section>
+    <section class="intro">
+        <h2>About WellWomb</h2>
+        <p>WellWomb is a platform dedicated to helping women with PCOD through education, tracking, and natural healing resources.</p>
+    </section>
+</body>
+</html>

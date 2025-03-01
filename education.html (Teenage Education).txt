@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellWomb - Teenage Education</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/lotus-logo.png" alt="WellWomb Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tracker.html">PCOD Health Tracker</a></li>
+                <li><a href="education.html">Teenage Education</a></li>
+                <li><a href="toolkit.html">Natural Reversal Toolkit</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="education">
+        <h2>Teenage Education</h2>
+        <div class="quiz">
+            <h3>Quiz: Test Your Knowledge About PCOD</h3>
+            <p>What is PCOD?</p>
+            <ul>
+                <li><input type="radio" name="q1" value="A"> A disease</li>
+                <li><input type="radio" name="q1" value="B"> A hormonal disorder</li>
+                <li><input type="radio" name="q1" value="C"> A virus</li>
+            </ul>
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="quizResult"></p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+// PCOD Health Tracker Form
+document.getElementById('trackerForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const age = document.getElementById('age').value;
+    const weight = document.getElementById('weight').value;
+    const symptoms = document.getElementById('symptoms').value;
+
+    // Add logic to generate recommendations
+    const recommendations = `Based on your input, we recommend...`;
+    document.getElementById('recommendations').innerText = recommendations;
+});
+
+// Quiz for Teenage Education
+function checkAnswer() {
+    const answer = document.querySelector('input[name="q1"]:checked').value;
+    const result = document.getElementById('quizResult');
+    if (answer === "B") {
+        result.innerText = "Correct! PCOD is a hormonal disorder.";
+    } else {
+        result.innerText = "Incorrect. PCOD is a hormonal disorder.";
+    }
+}

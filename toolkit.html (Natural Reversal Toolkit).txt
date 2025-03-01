@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellWomb - Natural Reversal Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/lotus-logo.png" alt="WellWomb Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tracker.html">PCOD Health Tracker</a></li>
+                <li><a href="education.html">Teenage Education</a></li>
+                <li><a href="toolkit.html">Natural Reversal Toolkit</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="toolkit">
+        <h2>Natural Reversal Toolkit</h2>
+        <div class="resource">
+            <h3>Diet Plan</h3>
+            <p>Download our PCOD-friendly diet plan.</p>
+            <a href="diet-plan.pdf" download class="download-button">Download</a>
+        </div>
+        <div class="resource">
+            <h3>Exercise Routine</h3>
+            <p>Download our PCOD-friendly exercise routine.</p>
+            <a href="exercise-routine.pdf" download class="download-button">Download</a>
+        </div>
+    </section>
+</body>
+</html>
