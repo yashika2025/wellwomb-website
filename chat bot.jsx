@@ -17,13 +17,20 @@ export default function App() {
       const botReplies = {
         "what is pcod": "🌷 PCOD (Polycystic Ovarian Disease) is a hormonal disorder that affects women’s health.",
         "how to manage pcod": "🎗️ A healthy diet, regular exercise, and stress management help manage PCOD.",
-        "symptoms of pcod": "🌷 Symptoms include irregular periods, weight gain, acne, and hormonal imbalance.",
-        "is pcod curable": "🎗️ PCOD can be managed with lifestyle changes, but it's not completely curable.",
-        "can pcod affect pregnancy": "🌷 Yes, PCOD can cause infertility, but many women conceive with treatment.",
-        "best diet for pcod": "🎗️ A low-carb, high-protein diet with whole foods and healthy fats is recommended.",
-        "can pcod cause hair loss": "🌷 Yes, PCOD can cause hair thinning due to hormonal imbalance.",
-        "exercise for pcod": "🎗️ Yoga, strength training, and cardio exercises help manage PCOD effectively.",
-        "does stress affect pcod": "🌷 Yes, stress can worsen PCOD symptoms by increasing cortisol levels.",
+        "is pcod curable": "🌷 PCOD can be managed with lifestyle changes, but it's not completely curable.",
+        "can pcod affect pregnancy": "🎗️ Yes, PCOD can cause infertility, but many women conceive with treatment.",
+        "what are the symptoms of pcod": "🌷 Symptoms include irregular periods, weight gain, acne, and hormonal imbalance.",
+        "can pcod cause hair loss": "🎗️ Yes, PCOD can cause hair thinning due to hormonal imbalance.",
+        "does pcod affect weight gain": "🌷 Yes, many women with PCOD experience weight gain due to insulin resistance.",
+        "does stress affect pcod": "🎗️ Yes, stress can worsen PCOD symptoms by increasing cortisol levels.",
+        "what is the best diet for pcod": "🌷 A low-carb, high-protein diet with whole foods and healthy fats is recommended.",
+        "which exercises are good for pcod": "🎗️ Yoga, strength training, and cardio exercises help manage PCOD effectively.",
+        "how does yoga help in pcod": "🌷 Yoga improves blood circulation, reduces stress, and balances hormones in PCOD.",
+        "can home remedies cure pcod": "🎗️ Home remedies like spearmint tea and flaxseeds help but don’t completely cure PCOD.",
+        "which medicines help in pcod": "🌷 Birth control pills, metformin, and hormonal therapy are commonly prescribed for PCOD.",
+        "can pcod cause infertility": "🎗️ PCOD can affect ovulation, leading to infertility, but treatment can improve chances of pregnancy.",
+        "should i see a doctor for pcod": "🌷 Yes, if you experience irregular periods, excessive hair growth, or difficulty conceiving, see a doctor.",
+        "can birth control pills help in pcod": "🎗️ Yes, birth control pills regulate periods and reduce symptoms like acne and hair growth.",
       };
 
       const botMessage = {
